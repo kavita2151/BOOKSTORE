@@ -29,5 +29,27 @@ Other: Axios, Redux, Cloudinary (if applicable for image uploads)
 Node.js installed
 MongoDB installed or use MongoDB Atlas
 
-**5.![Screenshot 2025-03-04 233516](https://github.com/user-attachments/assets/7c66bc8a-3e7d-451c-879c-954da8fa6001)
-Screenshot**
+# Clone the repository
+git clone https://github.com/yourusername/BookHaven.git
+cd BookHaven
+
+# Install backend dependencies
+cd backend
+npm install
+
+# Setup environment variables (.env file)
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+PORT=1000
+
+# Start the backend server
+npm start
+
+# Install frontend dependencies
+cd ../frontend
+npm install
+
+# Start the frontend
+npm start
+
+
